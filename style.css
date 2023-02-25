@@ -27,7 +27,7 @@ h1{
     font-size: 1.7em;
     width: 50%;
     margin: auto;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     padding-top: 80px;
     padding-bottom: 30px;
     border-bottom: 1px solid black;
@@ -69,7 +69,6 @@ select{
     color: white;
     transition: 0.5s;
 }
-/*           numpr           */
 #dsply{
     color: white;
     text-align: right;
@@ -105,4 +104,49 @@ select{
     background-color: #D73838;
     color: white;
     transition: 0.5s;
+}
+@media only screen and (320px <= width <= 700px) {
+    h1{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .stayl{
+        width: 50%;
+        padding: 3%;
+    }
+    .form-group{
+        width: 100%;
+    }
+    select{
+        width: 90%;
+        float: right;
+    }
+    .btn{
+        width: 20%;
+        padding: 2%;
+        font-size: 1.1em;
+    }
+    section{
+        background-color: #2D2D2D;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .nu .bu{
+        line-height: 300%;
+    }
+}
+@media only screen and (700px <= width <= 1100px) {
+    h1{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .stayl{
+        width: 15%;
+        padding: 1%;
+    }
+    section{
+        background-color: #2D2D2D;
+        width: 60%;
+        margin-top: 30px;
+    }
 }
